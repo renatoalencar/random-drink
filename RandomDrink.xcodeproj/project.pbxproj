@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA553D927E1A56BF9FFB3D3 /* Pods_RandomDrink_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE66F9768C603F1CA0C5FE1 /* Pods_RandomDrink_WatchKit_Extension.framework */; };
+		3C3C58D96A2F64BA08CD159C /* Pods_RandomDrink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576194A3A6EF947F338A340B /* Pods_RandomDrink.framework */; };
+		6C8106C4232C0E0000299A6B /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8106C3232C0E0000299A6B /* Drink.swift */; };
+		6C8106C7232C0E6300299A6B /* RandomDrinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8106C6232C0E6300299A6B /* RandomDrinkService.swift */; };
+		6C8106CB232C182600299A6B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8106CA232C182600299A6B /* ActivityIndicator.swift */; };
+		6CA9B937232064CC0006D946 /* RandomDrink WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6CA9B936232064CC0006D946 /* RandomDrink WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6CA9B93D232064CC0006D946 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9B93B232064CC0006D946 /* Interface.storyboard */; };
+		6CA9B93F232064D10006D946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9B93E232064D10006D946 /* Assets.xcassets */; };
+		6CA9B946232064D10006D946 /* RandomDrink WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6CA9B945232064D10006D946 /* RandomDrink WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6CA9B94D232064D10006D946 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9B94C232064D10006D946 /* HostingController.swift */; };
+		6CA9B94F232064D10006D946 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9B94E232064D10006D946 /* ExtensionDelegate.swift */; };
+		6CA9B955232064D30006D946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9B954232064D30006D946 /* Assets.xcassets */; };
+		6CA9B958232064D30006D946 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9B957232064D30006D946 /* Preview Assets.xcassets */; };
+		6CA9B96A232069130006D946 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9B969232069130006D946 /* RemoteImage.swift */; };
+		6CCA8572232FE6D900473907 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA8571232FE6D900473907 /* DrinkView.swift */; };
+		6CCA8574233124BC00473907 /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA8573233124BC00473907 /* DrinkDetailView.swift */; };
+		6CCA857623314D9700473907 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA857523314D9700473907 /* State.swift */; };
+		6CCA8578233153A100473907 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA8577233153A100473907 /* HomeView.swift */; };
+		F5A1A92CE8E892288CE78470 /* Pods_RandomDrink_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A5E1B7D084495267DA89B9 /* Pods_RandomDrink_WatchKit_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA9B938232064CC0006D946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA9B92C232064CB0006D946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA9B935232064CC0006D946;
+			remoteInfo = "RandomDrink WatchKit App";
+		};
+		6CA9B947232064D10006D946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA9B92C232064CB0006D946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA9B944232064D10006D946;
+			remoteInfo = "RandomDrink WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CA9B960232064D40006D946 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6CA9B946232064D10006D946 /* RandomDrink WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA9B964232064D40006D946 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6CA9B937232064CC0006D946 /* RandomDrink WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09A5E1B7D084495267DA89B9 /* Pods_RandomDrink_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomDrink_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		146E81EB6E1B161F374DD4C4 /* Pods-RandomDrink WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomDrink WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-RandomDrink WatchKit App/Pods-RandomDrink WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		30C9DBA2B79A49F7E5E50FB4 /* Pods-RandomDrink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomDrink.release.xcconfig"; path = "Target Support Files/Pods-RandomDrink/Pods-RandomDrink.release.xcconfig"; sourceTree = "<group>"; };
+		48EC163D30D3BD4D23E6D826 /* Pods-RandomDrink WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomDrink WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-RandomDrink WatchKit Extension/Pods-RandomDrink WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		576194A3A6EF947F338A340B /* Pods_RandomDrink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomDrink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8106C3232C0E0000299A6B /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		6C8106C6232C0E6300299A6B /* RandomDrinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDrinkService.swift; sourceTree = "<group>"; };
+		6C8106CA232C182600299A6B /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		6CA9B932232064CC0006D946 /* RandomDrink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomDrink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA9B936232064CC0006D946 /* RandomDrink WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RandomDrink WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA9B93C232064CC0006D946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6CA9B93E232064D10006D946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CA9B940232064D10006D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA9B945232064D10006D946 /* RandomDrink WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RandomDrink WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA9B94C232064D10006D946 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		6CA9B94E232064D10006D946 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6CA9B954232064D30006D946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CA9B957232064D30006D946 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CA9B959232064D30006D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA9B969232069130006D946 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		6CCA8571232FE6D900473907 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		6CCA8573233124BC00473907 /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		6CCA857523314D9700473907 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		6CCA8577233153A100473907 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7BE66F9768C603F1CA0C5FE1 /* Pods_RandomDrink_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomDrink_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38E5FA69532350A5853D063 /* Pods-RandomDrink WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomDrink WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-RandomDrink WatchKit Extension/Pods-RandomDrink WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D252E8D6723C13B043EB8303 /* Pods-RandomDrink WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomDrink WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-RandomDrink WatchKit App/Pods-RandomDrink WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0B1D8FB0DB00457F08F4E6 /* Pods-RandomDrink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomDrink.debug.xcconfig"; path = "Target Support Files/Pods-RandomDrink/Pods-RandomDrink.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383023446DF6DC8B5E758682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A1A92CE8E892288CE78470 /* Pods_RandomDrink_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA9B942232064D10006D946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA553D927E1A56BF9FFB3D3 /* Pods_RandomDrink_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04E49E8C0C7904A4AA2BC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3C58D96A2F64BA08CD159C /* Pods_RandomDrink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C8106C2232C0DEB00299A6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C8106C3232C0E0000299A6B /* Drink.swift */,
+				6CCA857523314D9700473907 /* State.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C8106C5232C0E5200299A6B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6C8106C6232C0E6300299A6B /* RandomDrinkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6CA80A6A2332ED5D00CD33AA /* Drink */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA8571232FE6D900473907 /* DrinkView.swift */,
+				6CCA8573233124BC00473907 /* DrinkDetailView.swift */,
+			);
+			path = Drink;
+			sourceTree = "<group>";
+		};
+		6CA9B92B232064CB0006D946 = {
+			isa = PBXGroup;
+			children = (
+				6CA9B93A232064CC0006D946 /* RandomDrink WatchKit App */,
+				6CA9B949232064D10006D946 /* RandomDrink WatchKit Extension */,
+				6CA9B933232064CC0006D946 /* Products */,
+				6CCA6BB7F43177DD0C5D569D /* Pods */,
+				BEAFF1007B186FEC5298749E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA9B933232064CC0006D946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9B932232064CC0006D946 /* RandomDrink.app */,
+				6CA9B936232064CC0006D946 /* RandomDrink WatchKit App.app */,
+				6CA9B945232064D10006D946 /* RandomDrink WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA9B93A232064CC0006D946 /* RandomDrink WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9B93B232064CC0006D946 /* Interface.storyboard */,
+				6CA9B93E232064D10006D946 /* Assets.xcassets */,
+				6CA9B940232064D10006D946 /* Info.plist */,
+			);
+			path = "RandomDrink WatchKit App";
+			sourceTree = "<group>";
+		};
+		6CA9B949232064D10006D946 /* RandomDrink WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA85792331A0E000473907 /* Views */,
+				6C8106C5232C0E5200299A6B /* Services */,
+				6C8106C2232C0DEB00299A6B /* Models */,
+				6CA9B94C232064D10006D946 /* HostingController.swift */,
+				6CA9B94E232064D10006D946 /* ExtensionDelegate.swift */,
+				6CA9B954232064D30006D946 /* Assets.xcassets */,
+				6CA9B959232064D30006D946 /* Info.plist */,
+				6CA9B956232064D30006D946 /* Preview Content */,
+			);
+			path = "RandomDrink WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6CA9B956232064D30006D946 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9B957232064D30006D946 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CA9B9682320689B0006D946 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9B969232069130006D946 /* RemoteImage.swift */,
+				6C8106CA232C182600299A6B /* ActivityIndicator.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		6CCA6BB7F43177DD0C5D569D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B1D8FB0DB00457F08F4E6 /* Pods-RandomDrink.debug.xcconfig */,
+				30C9DBA2B79A49F7E5E50FB4 /* Pods-RandomDrink.release.xcconfig */,
+				D252E8D6723C13B043EB8303 /* Pods-RandomDrink WatchKit App.debug.xcconfig */,
+				146E81EB6E1B161F374DD4C4 /* Pods-RandomDrink WatchKit App.release.xcconfig */,
+				A38E5FA69532350A5853D063 /* Pods-RandomDrink WatchKit Extension.debug.xcconfig */,
+				48EC163D30D3BD4D23E6D826 /* Pods-RandomDrink WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6CCA85792331A0E000473907 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CA80A6A2332ED5D00CD33AA /* Drink */,
+				6CA9B9682320689B0006D946 /* Supporting Views */,
+				6CCA8577233153A100473907 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEAFF1007B186FEC5298749E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576194A3A6EF947F338A340B /* Pods_RandomDrink.framework */,
+				09A5E1B7D084495267DA89B9 /* Pods_RandomDrink_WatchKit_App.framework */,
+				7BE66F9768C603F1CA0C5FE1 /* Pods_RandomDrink_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA9B931232064CC0006D946 /* RandomDrink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA9B965232064D40006D946 /* Build configuration list for PBXNativeTarget "RandomDrink" */;
+			buildPhases = (
+				E5052AC43914D359ADFCFDB7 /* [CP] Check Pods Manifest.lock */,
+				6CA9B930232064CC0006D946 /* Resources */,
+				6CA9B964232064D40006D946 /* Embed Watch Content */,
+				F04E49E8C0C7904A4AA2BC6D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA9B939232064CC0006D946 /* PBXTargetDependency */,
+			);
+			name = RandomDrink;
+			productName = RandomDrink;
+			productReference = 6CA9B932232064CC0006D946 /* RandomDrink.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6CA9B935232064CC0006D946 /* RandomDrink WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA9B961232064D40006D946 /* Build configuration list for PBXNativeTarget "RandomDrink WatchKit App" */;
+			buildPhases = (
+				0E31D972BEF53BF876B9A9CC /* [CP] Check Pods Manifest.lock */,
+				6CA9B934232064CC0006D946 /* Resources */,
+				6CA9B960232064D40006D946 /* Embed App Extensions */,
+				383023446DF6DC8B5E758682 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA9B948232064D10006D946 /* PBXTargetDependency */,
+			);
+			name = "RandomDrink WatchKit App";
+			productName = "RandomDrink WatchKit App";
+			productReference = 6CA9B936232064CC0006D946 /* RandomDrink WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6CA9B944232064D10006D946 /* RandomDrink WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA9B95D232064D40006D946 /* Build configuration list for PBXNativeTarget "RandomDrink WatchKit Extension" */;
+			buildPhases = (
+				33D88B52124914AC47ED1E07 /* [CP] Check Pods Manifest.lock */,
+				6CA9B941232064D10006D946 /* Sources */,
+				6CA9B942232064D10006D946 /* Frameworks */,
+				6CA9B943232064D10006D946 /* Resources */,
+				32673983997FAE4686DD496E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RandomDrink WatchKit Extension";
+			productName = "RandomDrink WatchKit Extension";
+			productReference = 6CA9B945232064D10006D946 /* RandomDrink WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA9B92C232064CB0006D946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Renato Alencar";
+				TargetAttributes = {
+					6CA9B931232064CC0006D946 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					6CA9B935232064CC0006D946 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					6CA9B944232064D10006D946 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 6CA9B92F232064CB0006D946 /* Build configuration list for PBXProject "RandomDrink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA9B92B232064CB0006D946;
+			productRefGroup = 6CA9B933232064CC0006D946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA9B931232064CC0006D946 /* RandomDrink */,
+				6CA9B935232064CC0006D946 /* RandomDrink WatchKit App */,
+				6CA9B944232064D10006D946 /* RandomDrink WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA9B930232064CC0006D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA9B934232064CC0006D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA9B93F232064D10006D946 /* Assets.xcassets in Resources */,
+				6CA9B93D232064CC0006D946 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA9B943232064D10006D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA9B958232064D30006D946 /* Preview Assets.xcassets in Resources */,
+				6CA9B955232064D30006D946 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E31D972BEF53BF876B9A9CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomDrink WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32673983997FAE4686DD496E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomDrink WatchKit Extension/Pods-RandomDrink WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomDrink WatchKit Extension/Pods-RandomDrink WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RandomDrink WatchKit Extension/Pods-RandomDrink WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33D88B52124914AC47ED1E07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomDrink WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5052AC43914D359ADFCFDB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomDrink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA9B941232064D10006D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA8574233124BC00473907 /* DrinkDetailView.swift in Sources */,
+				6CA9B94D232064D10006D946 /* HostingController.swift in Sources */,
+				6CCA8578233153A100473907 /* HomeView.swift in Sources */,
+				6CCA8572232FE6D900473907 /* DrinkView.swift in Sources */,
+				6CA9B96A232069130006D946 /* RemoteImage.swift in Sources */,
+				6CA9B94F232064D10006D946 /* ExtensionDelegate.swift in Sources */,
+				6C8106C7232C0E6300299A6B /* RandomDrinkService.swift in Sources */,
+				6C8106C4232C0E0000299A6B /* Drink.swift in Sources */,
+				6C8106CB232C182600299A6B /* ActivityIndicator.swift in Sources */,
+				6CCA857623314D9700473907 /* State.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA9B939232064CC0006D946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA9B935232064CC0006D946 /* RandomDrink WatchKit App */;
+			targetProxy = 6CA9B938232064CC0006D946 /* PBXContainerItemProxy */;
+		};
+		6CA9B948232064D10006D946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA9B944232064D10006D946 /* RandomDrink WatchKit Extension */;
+			targetProxy = 6CA9B947232064D10006D946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA9B93B232064CC0006D946 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA9B93C232064CC0006D946 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA9B95B232064D30006D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CA9B95C232064D30006D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA9B95E232064D40006D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38E5FA69532350A5853D063 /* Pods-RandomDrink WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RandomDrink WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RandomDrink WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatoalencar.RandomDrink.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		6CA9B95F232064D40006D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EC163D30D3BD4D23E6D826 /* Pods-RandomDrink WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RandomDrink WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RandomDrink WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatoalencar.RandomDrink.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		6CA9B962232064D40006D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D252E8D6723C13B043EB8303 /* Pods-RandomDrink WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = RandomDrink_WatchKit_Extension;
+				INFOPLIST_FILE = "RandomDrink WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatoalencar.RandomDrink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		6CA9B963232064D40006D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146E81EB6E1B161F374DD4C4 /* Pods-RandomDrink WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = RandomDrink_WatchKit_Extension;
+				INFOPLIST_FILE = "RandomDrink WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatoalencar.RandomDrink.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		6CA9B966232064D40006D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0B1D8FB0DB00457F08F4E6 /* Pods-RandomDrink.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatoalencar.RandomDrink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6CA9B967232064D40006D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C9DBA2B79A49F7E5E50FB4 /* Pods-RandomDrink.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatoalencar.RandomDrink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA9B92F232064CB0006D946 /* Build configuration list for PBXProject "RandomDrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA9B95B232064D30006D946 /* Debug */,
+				6CA9B95C232064D30006D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA9B95D232064D40006D946 /* Build configuration list for PBXNativeTarget "RandomDrink WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA9B95E232064D40006D946 /* Debug */,
+				6CA9B95F232064D40006D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA9B961232064D40006D946 /* Build configuration list for PBXNativeTarget "RandomDrink WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA9B962232064D40006D946 /* Debug */,
+				6CA9B963232064D40006D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA9B965232064D40006D946 /* Build configuration list for PBXNativeTarget "RandomDrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA9B966232064D40006D946 /* Debug */,
+				6CA9B967232064D40006D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA9B92C232064CB0006D946 /* Project object */;
+}
